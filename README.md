@@ -1,18 +1,12 @@
-Task Manager app ready panra — CRUD, login screen, priority tags — ellam add pannitten, same "Pooja" branding la.
+I'll build this as a working task management web app for you. Let me design something distinctive first, then build it.
 
-"TaskFlow" ready — Pooja panra maadhiri build pannitten.
+Ready! Idhu oru full Task Management web app — "ledger" theme la design pannirukken:
 
-**Ippo work aagura features:**
-- Login/signup screen (any email+password la login aagum)
-- Task CRUD — add, edit, mark done, delete
-- Priority tags (high/medium/low) + due dates
-- Filter — all/pending/completed
-- Live stats dashboard mela
+- **Sign in** by name (no password, saved per device)
+- **Add/edit/delete tasks** — title, description, priority, due date
+- Tap the status icon to **cycle todo → in progress → done**
+- **Search + filter** by status, sidebar shows live counts
+- Data **persists automatically** (saved to storage, survives reloads)
+- Fully **responsive** for mobile and desktop
 
-**Note:** Ithu ippo frontend-oda demo data (in-memory) vachi work aagudhu — browser refresh pannaa reset aagum. Assignment kaaga real backend + DB (auth, persistent storage) venumnu irundha, adhukku:
-
-- Backend: Node.js + Express — login/signup routes + task CRUD API
-- DB: MongoDB — users & tasks collections
-- Deploy: Render (backend) + Vercel (frontend)
-
-Adha venumna sollu, naan Express server code + MongoDB schema full-ah kudukaren, adha un frontend kooda connect pannikalam.
+Idhu unga assignment-oda requirements (auth, CRUD, responsive) cover pannudhu. Real-time WebSockets part optional-nu sonna, so avoid pannitten — venumna sollunga, add pannalam.
